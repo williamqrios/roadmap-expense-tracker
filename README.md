@@ -1,7 +1,7 @@
 ### Expense Tracker
 Project inspiration taken from [roadmap.sh](https://roadmap.sh/projects/expense-tracker). Built with Rust 1.84.0. 
 
-Expenses are stored in a CSV file where the columns are separated by `;` to avoid issues with using `,` as a decimal separator. The dates are in the format %Y-%m-$d.
+Expenses are stored in a CSV file where the columns are separated by `;` to avoid issues with using `,` as a decimal separator. The dates are in the format %Y-%m-%d.
 
 ### Command list 
 - `add --description <DESC> --amount <NUM> --date <DATE>` - adds a new expense with a given amount and description; the date is optional (defaults to today's date). When provided, the date must follow the format: %Y-%m-%d.
